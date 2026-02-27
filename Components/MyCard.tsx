@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import profile from "../public/Profile.png";
+import profile from "../assets/images/profile.png";
 import {
   FaFacebook,
   FaXTwitter,
@@ -20,7 +20,7 @@ export default function MyCard() {
 
       <div className="bg-white rounded-2xl flex justify-center items-center p-6 mb-7">
         <Image
-          src="/Profile.png"
+          src={profile}
           alt="Profile"
           width={220}
           height={220}
