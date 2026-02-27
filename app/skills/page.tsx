@@ -1,6 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
+import profile from "../public/Profile.png";
+import MyCard from "@/Components/MyCard";
+import SideMenu from "@/Components/SideMenu";
 import { FaReact, FaFigma, FaGithub, FaJs } from "react-icons/fa"
 import { SiNextdotjs, SiCss3 } from "react-icons/si"
 

@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import profile from "../public/Profile.png";
 import {
   FaFacebook,
   FaXTwitter,
