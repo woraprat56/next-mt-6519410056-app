@@ -1,6 +1,4 @@
-import Image from "next/image";
 import EduExpContent from "./eduexp/page";
-import profile from "../public/Profile.png";
 
 export default function Home() {
   return (
