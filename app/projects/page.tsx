@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import manage from "@/assets/images/manage.png";
 
 export default function ProjectsPage() {
   return (
@@ -26,7 +27,7 @@ export default function ProjectsPage() {
       {/* Image Container */}
       <div className="bg-[#1c1c1c] p-6 rounded-2xl w-fit shadow-xl">
         <Image
-      src="/Manage.JPG"
+      src={manage}
       alt="Manage Project"
       width={600}
       height={350}
